@@ -1,0 +1,14 @@
+on post-fs-data
+    mkdir /data/vendor/csrs 0770
+    chmod 0777 /system/bin/rkp_extract.sh
+
+on property:vendor.sys.csr.extract=1
+start rkp_extract
+
+service rkp_extract /system/bin/sh /system/bin/rkp_extract.sh
+    class main
+    console
+    disabled
+    user shell
+    oneshot
+    seclabel u:r:shell:s0

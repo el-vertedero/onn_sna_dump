@@ -1,0 +1,11 @@
+on init
+    chmod 0666 /sys/class/sk9822_led/led_ctrl
+    chown system system /sys/class/sk9822_led/led_ctrl
+
+service vendor.lights  /vendor/bin/hw/lights_sna
+    class hal
+    user system
+    group system
+    # FIXME: actually do this
+    # shutting off lights while powering-off
+    shutdown critical
