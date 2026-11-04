@@ -1,0 +1,10 @@
+(typeattributeset setupwraith_app_34_0 (setupwraith_app))
+(expandtypeattribute (setupwraith_app_34_0) true)
+(typeattribute setupwraith_app_34_0)
+(typeattributeset logcatd_ext_34_0 (logcatd_ext))
+(expandtypeattribute (logcatd_ext_34_0) true)
+(typeattribute logcatd_ext_34_0)
+(typeattributeset logcatd_ext_exec_34_0 (logcatd_ext_exec))
+(expandtypeattribute (logcatd_ext_exec_34_0) true)
+(typeattribute logcatd_ext_exec_34_0)
+
