@@ -1,0 +1,128 @@
+/vendor/lib/modules/amvdec_avs2.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_avs3_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-multitouch.ko:
+/vendor/lib/modules/amvdec_av1_fb.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_h265_fb_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/v4l2-async.ko:
+/vendor/lib/modules/amlogic-socinfo.ko:
+/vendor/lib/modules/firmware.ko: /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/gpio-regulator.ko:
+/vendor/lib/modules/amlogic-mdio-g12a.ko: /vendor/lib/modules/mdio-mux.ko
+/vendor/lib/modules/amlogic-snd-codec-t9015.ko: /vendor/lib/modules/amlogic-snd-soc.ko
+/vendor/lib/modules/amvdec_h265_fb.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/clk-scmi.ko:
+/vendor/lib/modules/sdio_bt.ko:
+/vendor/lib/modules/stmmac.ko: /vendor/lib/modules/pcs_xpcs.ko
+/vendor/lib/modules/amlogic-pcie.ko:
+/vendor/lib/modules/hid-logitech-dj.ko:
+/vendor/lib/modules/mali.ko: /vendor/lib/modules/amlogic-thermal.ko
+/vendor/lib/modules/hid-apple.ko:
+/vendor/lib/modules/amvdec_debug_port.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_mmjpeg_v4l.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-elecom.ko:
+/vendor/lib/modules/amvdec_vp9_fb.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amlogic-seckey.ko:
+/vendor/lib/modules/media_sync.ko: /vendor/lib/modules/amlogic-dvb-demux.ko /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_avs2_fb.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_avs3.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-roccat-common.ko:
+/vendor/lib/modules/hid-magicmouse.ko:
+/vendor/lib/modules/amvdec_av1_fb_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_avs2_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-roccat-isku.ko: /vendor/lib/modules/hid-roccat-common.ko /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/amvenc_multi.ko: /vendor/lib/modules/encoder_common.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amlogic-crypto-dma.ko:
+/vendor/lib/modules/amvdec_mmpeg12_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/dwmac-meson.ko: /vendor/lib/modules/stmmac-platform.ko /vendor/lib/modules/stmmac.ko /vendor/lib/modules/pcs_xpcs.ko
+/vendor/lib/modules/amlogic-thermal.ko:
+/vendor/lib/modules/media_clock.ko:
+/vendor/lib/modules/amlogic-host.ko:
+/vendor/lib/modules/hid-logitech.ko:
+/vendor/lib/modules/hid-prodikeys.ko:
+/vendor/lib/modules/amlogic-snd-codec-ad82128.ko:
+/vendor/lib/modules/dwc_otg.ko:
+/vendor/lib/modules/dwmac-meson8b.ko: /vendor/lib/modules/amlogic-mdio-g12a.ko /vendor/lib/modules/mdio-mux.ko /vendor/lib/modules/stmmac-platform.ko /vendor/lib/modules/stmmac.ko /vendor/lib/modules/pcs_xpcs.ko
+/vendor/lib/modules/amlogic-led.ko:
+/vendor/lib/modules/amvdec_h264mvc.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/btmtk_usb.ko:
+/vendor/lib/modules/amvdec_mmpeg4_v4l.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/cuva_hdr_alg.ko:
+/vendor/lib/modules/amvdec_vc1_v4l.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-plantronics.ko:
+/vendor/lib/modules/sha1-ce.ko:
+/vendor/lib/modules/hid-roccat-koneplus.ko: /vendor/lib/modules/hid-roccat-common.ko /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/encoder.ko: /vendor/lib/modules/encoder_common.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_avs2_fb_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/jpegenc.ko: /vendor/lib/modules/encoder.ko /vendor/lib/modules/encoder_common.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/v4l2-fwnode.ko: /vendor/lib/modules/v4l2-async.ko
+/vendor/lib/modules/amvdec_av1.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amlogic-jtag.ko:
+/vendor/lib/modules/amlogic_fbc_lib.ko:
+/vendor/lib/modules/amlogic-rtc.ko:
+/vendor/lib/modules/amvdec_vp9_v4l.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/mdio-mux.ko:
+/vendor/lib/modules/amvdec_mmpeg4.ko: /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_h265.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_av1_t5d_v4l.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-roccat-ryos.ko: /vendor/lib/modules/hid-roccat-common.ko /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/vc8000.ko: /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/aml_bt.ko:
+/vendor/lib/modules/hid-logitech-hidpp.ko:
+/vendor/lib/modules/wacom.ko:
+/vendor/lib/modules/rtk_btusb.ko:
+/vendor/lib/modules/amvdec_mh264_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-microsoft.ko:
+/vendor/lib/modules/hid-roccat-arvo.ko: /vendor/lib/modules/hid-roccat-common.ko /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/hid-wiimote.ko:
+/vendor/lib/modules/memalloc.ko: /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amlogic-spi.ko:
+/vendor/lib/modules/leds-sk9822.ko:
+/vendor/lib/modules/video_framerate_adapter.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/aml_hardware_dmx.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amlogic-dvb-demux.ko:
+/vendor/lib/modules/hid-uclogic.ko:
+/vendor/lib/modules/amvdec_av1_v4l.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_mh264.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_ports.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amlogic-wireless.ko:
+/vendor/lib/modules/amvdec_mavs.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/leds-gpio.ko:
+/vendor/lib/modules/encoder_common.ko:
+/vendor/lib/modules/hid-roccat-savu.ko: /vendor/lib/modules/hid-roccat-common.ko /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/pts_server.ko:
+/vendor/lib/modules/cfg80211.ko:
+/vendor/lib/modules/stream_input.ko: /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/rtkm_s.ko:
+/vendor/lib/modules/amlogic-realtek.ko:
+/vendor/lib/modules/vpu.ko: /vendor/lib/modules/encoder_common.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amvdec_vp9.ko: /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-roccat-kone.ko: /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/pcs_xpcs.ko:
+/vendor/lib/modules/hid-picolcd.ko:
+/vendor/lib/modules/hid-lg-g15.ko:
+/vendor/lib/modules/hid-roccat-konepure.ko: /vendor/lib/modules/hid-roccat-common.ko /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/amvdec_mmpeg12.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/8852bs.ko: /vendor/lib/modules/cfg80211.ko /vendor/lib/modules/rtkm_s.ko
+/vendor/lib/modules/dwmac-dwc-qos-eth.ko: /vendor/lib/modules/stmmac-platform.ko /vendor/lib/modules/stmmac.ko /vendor/lib/modules/pcs_xpcs.ko
+/vendor/lib/modules/amlogic-usb-cam.ko:
+/vendor/lib/modules/hid-roccat-lua.ko: /vendor/lib/modules/hid-roccat-common.ko
+/vendor/lib/modules/amvdec_mmjpeg.ko: /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/user_fault.ko:
+/vendor/lib/modules/amlogic-snd-soc.ko:
+/vendor/lib/modules/hid-roccat-kovaplus.ko: /vendor/lib/modules/hid-roccat-common.ko /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/amlogic-audio-utils.ko:
+/vendor/lib/modules/hid-roccat.ko:
+/vendor/lib/modules/hdr10_tmo_alg.ko:
+/vendor/lib/modules/hid-roccat-pyra.ko: /vendor/lib/modules/hid-roccat-common.ko /vendor/lib/modules/hid-roccat.ko
+/vendor/lib/modules/amvdec_h265_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-nintendo.ko:
+/vendor/lib/modules/decoder_common.ko: /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amlogic-dvb-ci.ko:
+/vendor/lib/modules/amvdec_mavs_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/stmmac-platform.ko: /vendor/lib/modules/stmmac.ko /vendor/lib/modules/pcs_xpcs.ko
+/vendor/lib/modules/amvdec_vc1.ko: /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/amlogic-snd-codec-dummy.ko:
+/vendor/lib/modules/i2c-dev.ko:
+/vendor/lib/modules/amvdec_vp9_fb_v4l.ko: /vendor/lib/modules/stream_input.ko /vendor/lib/modules/pts_server.ko /vendor/lib/modules/decoder_common.ko /vendor/lib/modules/firmware.ko /vendor/lib/modules/media_clock.ko
+/vendor/lib/modules/hid-steam.ko:
+/vendor/lib/modules/mac80211.ko: /vendor/lib/modules/cfg80211.ko

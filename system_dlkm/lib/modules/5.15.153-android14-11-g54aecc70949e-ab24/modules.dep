@@ -1,0 +1,123 @@
+kernel/kernel/kheaders.ko:
+kernel/mm/zsmalloc.ko:
+kernel/drivers/block/zram/zram.ko: kernel/mm/zsmalloc.ko
+kernel/drivers/net/mii.ko:
+kernel/drivers/net/ppp/ppp_generic.ko: kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/bsd_comp.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_deflate.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_mppe.ko: kernel/lib/crypto/libarc4.ko kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/pppox.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/pptp.ko: kernel/drivers/net/ppp/pppox.ko kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/slip/slhc.ko:
+kernel/drivers/net/usb/r8152.ko: kernel/drivers/net/mii.ko
+kernel/drivers/net/usb/asix.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko
+kernel/drivers/net/usb/ax88179_178a.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko
+kernel/drivers/net/usb/cdc_ether.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko
+kernel/drivers/net/usb/usbnet.ko: kernel/drivers/net/mii.ko
+kernel/drivers/net/usb/cdc_ncm.ko: kernel/drivers/net/usb/cdc_ether.ko kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko
+kernel/drivers/net/usb/r8153_ecm.ko: kernel/drivers/net/usb/r8152.ko kernel/drivers/net/usb/cdc_ether.ko kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko
+kernel/drivers/usb/class/cdc-acm.ko:
+kernel/drivers/bluetooth/hci_uart.ko: kernel/drivers/bluetooth/btqca.ko kernel/drivers/bluetooth/btbcm.ko kernel/net/bluetooth/bluetooth.ko
+kernel/drivers/bluetooth/btsdio.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/drivers/bluetooth/btbcm.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/drivers/bluetooth/btqca.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/net/bluetooth/bluetooth.ko:
+kernel/net/bluetooth/rfcomm/rfcomm.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/net/bluetooth/hidp/hidp.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/net/l2tp/l2tp_core.ko:
+kernel/net/l2tp/l2tp_ppp.ko: kernel/net/l2tp/l2tp_core.ko kernel/drivers/net/ppp/pppox.ko kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/net/tipc/tipc.ko:
+kernel/net/tipc/diag.ko: kernel/net/tipc/tipc.ko
+kernel/net/ieee802154/ieee802154.ko:
+kernel/net/ieee802154/ieee802154_socket.ko: kernel/net/ieee802154/ieee802154.ko
+kernel/net/mac802154/mac802154.ko: kernel/net/ieee802154/ieee802154.ko
+kernel/lib/crypto/libarc4.ko:
+kernel/common_drivers/drivers/hwspinlock/amlogic-hwspinlock.ko:
+kernel/drivers/hid/hid-multitouch.ko:
+kernel/common_drivers/drivers/net/phy/amlogic-inphy.ko: kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko
+kernel/drivers/media/v4l2-core/v4l2-async.ko:
+kernel/common_drivers/drivers/soc_info/amlogic-socinfo.ko:
+kernel/drivers/regulator/gpio-regulator.ko:
+kernel/common_drivers/drivers/net/mdio/amlogic-mdio-g12a.ko: kernel/common_drivers/drivers/net/phy/amlogic-inphy.ko kernel/drivers/net/mdio/mdio-mux.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-t9015.ko: kernel/common_drivers/sound/soc/amlogic/amlogic-snd-soc.ko
+kernel/drivers/clk/clk-scmi.ko:
+kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac.ko: kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko kernel/drivers/net/pcs/pcs_xpcs.ko
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-pa1.ko:
+kernel/common_drivers/drivers/pci/controller/amlogic-pcie.ko:
+kernel/drivers/hid/hid-logitech-dj.ko:
+kernel/drivers/hid/hid-apple.ko:
+kernel/drivers/hid/hid-elecom.ko:
+kernel/common_drivers/drivers/seckey/amlogic-seckey.ko:
+kernel/common_drivers/drivers/iio/adc/amlogic-adc.ko:
+kernel/drivers/hid/hid-roccat-common.ko:
+kernel/common_drivers/drivers/gpio/amlogic-pinctrl-soc-s7.ko:
+kernel/drivers/hid/hid-magicmouse.ko:
+kernel/drivers/hid/hid-roccat-isku.ko: kernel/drivers/hid/hid-roccat-common.ko kernel/drivers/hid/hid-roccat.ko
+kernel/common_drivers/drivers/crypto/amlogic-crypto-dma.ko:
+kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/dwmac-meson.ko: kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac-platform.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko kernel/drivers/net/pcs/pcs_xpcs.ko
+kernel/common_drivers/drivers/thermal/amlogic-thermal.ko:
+kernel/common_drivers/drivers/usb/amlogic-usb.ko:
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-sy6026l.ko:
+kernel/common_drivers/drivers/host/amlogic-host.ko:
+kernel/drivers/hid/hid-logitech.ko:
+kernel/drivers/hid/hid-prodikeys.ko:
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-ad82584f.ko:
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-ad82128.ko:
+kernel/common_drivers/drivers/usb/dwc_otg.ko: kernel/common_drivers/drivers/usb/amlogic-usb.ko
+kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/dwmac-meson8b.ko: kernel/common_drivers/drivers/net/mdio/amlogic-mdio-g12a.ko kernel/common_drivers/drivers/net/phy/amlogic-inphy.ko kernel/drivers/net/mdio/mdio-mux.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac-platform.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko kernel/drivers/net/pcs/pcs_xpcs.ko
+kernel/common_drivers/drivers/led/amlogic-led.ko:
+kernel/drivers/hid/hid-plantronics.ko:
+kernel/arch/arm64/crypto/sha1-ce.ko:
+kernel/common_drivers/drivers/input/amlogic-input.ko:
+kernel/drivers/hid/hid-roccat-koneplus.ko: kernel/drivers/hid/hid-roccat-common.ko kernel/drivers/hid/hid-roccat.ko
+kernel/drivers/media/v4l2-core/v4l2-fwnode.ko: kernel/drivers/media/v4l2-core/v4l2-async.ko
+kernel/common_drivers/drivers/jtag/amlogic-jtag.ko:
+kernel/common_drivers/drivers/rtc/amlogic-rtc.ko:
+kernel/common_drivers/drivers/clk/meson/amlogic-clk-soc-s6.ko:
+kernel/drivers/net/mdio/mdio-mux.ko:
+kernel/common_drivers/drivers/irblaster/amlogic-irblaster.ko:
+kernel/drivers/hid/hid-roccat-ryos.ko: kernel/drivers/hid/hid-roccat-common.ko kernel/drivers/hid/hid-roccat.ko
+kernel/drivers/hid/hid-logitech-hidpp.ko:
+kernel/drivers/hid/wacom.ko:
+kernel/drivers/hid/hid-microsoft.ko:
+kernel/drivers/hid/hid-roccat-arvo.ko: kernel/drivers/hid/hid-roccat-common.ko kernel/drivers/hid/hid-roccat.ko
+kernel/drivers/hid/hid-wiimote.ko:
+kernel/common_drivers/drivers/gpio/amlogic-pinctrl-soc-s7d.ko:
+kernel/common_drivers/drivers/spi/amlogic-spi.ko:
+kernel/common_drivers/drivers/led/leds-sk9822.ko:
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-tas5805.ko:
+kernel/common_drivers/drivers/dvb/demux/amlogic-dvb-demux.ko:
+kernel/drivers/hid/hid-uclogic.ko:
+kernel/common_drivers/drivers/wireless/amlogic-wireless.ko:
+kernel/drivers/leds/leds-gpio.ko:
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-tas5707.ko:
+kernel/drivers/hid/hid-roccat-savu.ko: kernel/drivers/hid/hid-roccat-common.ko kernel/drivers/hid/hid-roccat.ko
+kernel/common_drivers/drivers/clk/meson/amlogic-clk-soc-s7d.ko:
+kernel/net/wireless/cfg80211.ko:
+kernel/common_drivers/drivers/net/phy/amlogic-realtek.ko: kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-tl1.ko: kernel/common_drivers/sound/soc/amlogic/amlogic-snd-soc.ko
+kernel/drivers/hid/hid-roccat-kone.ko: kernel/drivers/hid/hid-roccat.ko
+kernel/drivers/net/pcs/pcs_xpcs.ko:
+kernel/drivers/hid/hid-picolcd.ko:
+kernel/common_drivers/drivers/clk/meson/amlogic-clk-soc-s7.ko:
+kernel/drivers/hid/hid-lg-g15.ko:
+kernel/drivers/hid/hid-roccat-konepure.ko: kernel/drivers/hid/hid-roccat-common.ko kernel/drivers/hid/hid-roccat.ko
+kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/dwmac-dwc-qos-eth.ko: kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac-platform.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko kernel/drivers/net/pcs/pcs_xpcs.ko
+kernel/common_drivers/drivers/dvb_usbci/amlogic-usb-cam.ko:
+kernel/drivers/hid/hid-roccat-lua.ko: kernel/drivers/hid/hid-roccat-common.ko
+kernel/common_drivers/drivers/memory_ext/user_fault.ko:
+kernel/common_drivers/sound/soc/amlogic/amlogic-snd-soc.ko:
+kernel/drivers/hid/hid-roccat-kovaplus.ko: kernel/drivers/hid/hid-roccat-common.ko kernel/drivers/hid/hid-roccat.ko
+kernel/common_drivers/drivers/debug/amlogic-audio-utils.ko:
+kernel/drivers/hid/hid-roccat.ko:
+kernel/drivers/hid/hid-roccat-pyra.ko: kernel/drivers/hid/hid-roccat-common.ko kernel/drivers/hid/hid-roccat.ko
+kernel/drivers/hid/hid-nintendo.ko:
+kernel/common_drivers/drivers/gpio/amlogic-pinctrl-soc-s6.ko:
+kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko:
+kernel/common_drivers/drivers/memory_ext/aml_smmu.ko:
+kernel/common_drivers/drivers/dvb_ci/amlogic-dvb-ci.ko:
+kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac-platform.ko: kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/stmmac.ko kernel/common_drivers/drivers/net/ethernet/stmicro/stmmac/amlogic-phy-debug.ko kernel/drivers/net/pcs/pcs_xpcs.ko
+kernel/common_drivers/sound/soc/codecs/amlogic/amlogic-snd-codec-dummy.ko:
+kernel/drivers/i2c/i2c-dev.ko:
+kernel/drivers/hid/hid-steam.ko:
+kernel/net/mac80211/mac80211.ko: kernel/net/wireless/cfg80211.ko kernel/lib/crypto/libarc4.ko

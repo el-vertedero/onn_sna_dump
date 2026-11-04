@@ -1,0 +1,14 @@
+# jarvis-user 14 URO1.250103.029.C1 13655754 release-keys
+- manufacturer: onn
+- platform: sc2
+- codename: SNA
+- flavor: jarvis-user
+- release: 14
+- id: URO1.250103.029.C1
+- incremental: 13655754
+- tags: release-keys
+- fingerprint: onn/jarvis/SNA:14/URO1.250103.029.C1/13655754:user/release-keys
+- is_ab: true
+- brand: onn
+- branch: jarvis-user-14-URO1.250103.029.C1-13655754-release-keys
+- repo: onn_sna_dump

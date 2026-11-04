@@ -1,0 +1,21 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.bootimage.brand=onn
+ro.product.bootimage.device=SNA
+ro.product.bootimage.manufacturer=onn
+ro.product.bootimage.model=onn. Streaming Device 4K pro
+ro.product.bootimage.name=jarvis
+ro.bootimage.build.date=Tue Jun 17 05:23:48 UTC 2025
+ro.bootimage.build.date.utc=1750137828
+ro.bootimage.build.fingerprint=onn/jarvis/SNA:14/URO1.250103.029.C1/13655754:user/release-keys
+ro.bootimage.build.id=URO1.250103.029.C1
+ro.bootimage.build.tags=release-keys
+ro.bootimage.build.type=user
+ro.bootimage.build.version.incremental=13655754
+ro.bootimage.build.version.release=14
+ro.bootimage.build.version.release_or_codename=14
+ro.bootimage.build.version.sdk=34
+# end of file
+

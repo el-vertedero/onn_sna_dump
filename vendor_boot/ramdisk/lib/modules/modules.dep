@@ -1,0 +1,9 @@
+/lib/modules/amlogic-hwspinlock.ko:
+/lib/modules/amlogic-inphy.ko: /lib/modules/amlogic-phy-debug.ko
+/lib/modules/amlogic-adc.ko:
+/lib/modules/amlogic-usb.ko:
+/lib/modules/dwc_otg.ko: /lib/modules/amlogic-usb.ko
+/lib/modules/amlogic-input.ko:
+/lib/modules/amlogic-irblaster.ko:
+/lib/modules/amlogic-phy-debug.ko:
+/lib/modules/aml_smmu.ko:
